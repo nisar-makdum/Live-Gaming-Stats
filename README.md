@@ -8,7 +8,7 @@
 * clone the project first.
 * cd (the project name).
 * npm install.
-* mpm start.
+* npm start.
 * browse on http://localhost:3000
 
 ## For unit testing: 
@@ -32,7 +32,7 @@
 * react-dom
 * react-scripts
 * sweetalert
-* jest-dom
+* jest
 
 # Author Details:
 * Name: Nisar Makdum.
