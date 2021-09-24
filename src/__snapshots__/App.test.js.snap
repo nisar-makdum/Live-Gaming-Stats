@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for App component 1`] = `
+<div
+  className="App"
+  data-testid="test-App"
+>
+  <header
+    className="App-header"
+  >
+    <h1>
+      Live-Gaming-Stats
+    </h1>
+    <div
+      className="container"
+      data-testid="test-GetParticipants"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-8 p-0"
+        >
+          <table
+            className="table mt-5 text-white border"
+          >
+            <thead>
+              <tr>
+                <th
+                  className="text-light text-left"
+                  scope="col"
+                >
+                  Sr No
+                </th>
+                <th
+                  className="text-light"
+                  scope="col"
+                >
+                  Name
+                </th>
+                <th
+                  className="text-light"
+                  scope="col"
+                >
+                  Played/Won
+                </th>
+                <th
+                  className="text-light"
+                  scope="col"
+                >
+                  Info
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+        <div
+          className="col-md-4 mt-5 p-0"
+        >
+          <div
+            class="card bg-dark"
+            id="card"
+            style={
+              Object {
+                "display": "none",
+                "marginTop": "120px",
+              }
+            }
+          >
+            <div
+              class="card-body "
+            >
+              <p
+                class="card-text text-info text-bold py-0 my-0 fw-bolder"
+              >
+                Winner
+              </p>
+              <p
+                class="card-text text-info fw-bold"
+                id="fullName"
+              />
+              <p
+                class="card-text  fw-bold"
+                id="totalPlayed"
+              />
+              <table
+                className="table-dark container"
+              >
+                <tr>
+                  <th
+                    className="text-danger"
+                  >
+                    Loser
+                  </th>
+                </tr>
+                <tr>
+                  <td
+                    className="text-danger"
+                    id="loserOne"
+                  />
+                </tr>
+                <tr>
+                  <td
+                    className="text-danger"
+                    id="loserTwo"
+                  />
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
