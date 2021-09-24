@@ -1,3 +1,8 @@
+/*
+ * Name: Nisar Makdum.
+ * Date: 25 September 2021.
+*/
+
 import './App.css'
 import Participants from './Components/Participants/Participants';
 

@@ -1,3 +1,8 @@
+/*
+ * Name: Nisar Makdum.
+ * Date: 25 September 2021.
+*/
+
 import React, { useEffect, useState } from 'react';
 import Swal from 'sweetalert2';
 const Participants = () => {
